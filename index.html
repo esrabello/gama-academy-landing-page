@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="https://github.com/esrabello" target="_blank" title="GitHub Érico"><img id="header-logo" src="assets/images/icons/github-icon-black.png"/></a>
+            <p id="header-company-name">Company Name</p>
+        </div>
+    </header>
+
+    <section id="section-1">
+        <div class="banner-container">
+            <h1 id="featured-text">BLACK FRIDAY</h1>
+            <h2>Mega descontos no bundle, accessories e games da família PlayStation®5</h2>
+            <img src="assets/images/featured-ps5-family-bundle-montagem.png"/>
+        </div>
+    </section>
+
+    <section id="section-2">
+        <div class="call-to-action">
+            <p>Cadastre-se para acompanhar os <span id="featured-text">descontos de até 45%</span> em tudo da PlayStation®.</p>
+            <form class="email-form">
+                <input
+                    id="input-email"
+                    class="input-email"
+                    type="email"
+                    name="input-email"
+                    placeholder="seu@email.com"
+                    required/>
+                <button onclick="storeEmail(0)" type="submit" id="submit-btn">Cadastrar</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="section-3">
+        <h2 style="margin-bottom: 20px;">TENHA OS JOGOS <span style="color:#CD3D0F;">MAIS DESEJADOS</span></h2>
+        <div class="best-games-container">
+            <div class="game">
+                <img src="assets/images/ps5-games/game-marvels-spider-man-miles-morales.jpg"/>
+                <h3>Marvel's Spider Man Miles Morales</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quod nisi ipsa nihil?</p>
+            </div>
+            <div class="game">
+                <img src="assets/images/ps5-games/game-gran-turismo-7.jpg"/>
+                <h3>Gran Turismo 7</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quod nisi ipsa nihil?</p>
+            </div>
+            <div class="game">
+                <img src="assets/images/ps5-games/game-nba-2k21.jpg"/>
+                <h3>NBA 2K21</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quod nisi ipsa nihil?</p>
+            </div>
+            <div class="game">
+                <img src="assets/images/ps5-games/game-marvels-avengers.jpg"/>
+                <h3>Marvel's Avengers</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quod nisi ipsa nihil?</p>
+            </div>
+            <div class="game">
+                <img src="assets/images/ps5-games/game-ratchet-clank-em-outra-dimensao.jpg"/>
+                <h3>Ratchet & Clank: Rift Apart</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quod nisi ipsa nihil?</p>
+            </div>
+            <div class="game">
+                <img src="assets/images/ps5-games/game-horizon-forbidden-west.jpg"/>
+                <h3>Horizon Forbidden</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quod nisi ipsa nihil?</p>
+            </div>
+    </section>
+
+    <section id="section-4">
+        <div class="call-to-action">
+            <p>Com essa Black Friday você e sua galera <span id="featured-text">jogam sem limites!</span></p>
+            <form class="email-form">
+                <input
+                    id="input-email"
+                    class="input-email"
+                    type="email"
+                    name="email"
+                    placeholder="seu@email.com"
+                    required/>
+                <button onclick="storeEmail(1)" type="submit" id="submit-btn">Cadastrar</button>
+            </form>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="assets/js/store-user-email.js"></script>
+
+</body>
+</html>
